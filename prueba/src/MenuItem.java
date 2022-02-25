@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class MenuItem {
+import javax.swing.*;
+
+public class MenuItem extends JMenuItem {
+
+    public MenuItem(){
+
+    }
 }

@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class TextField {
+import javax.swing.*;
+
+public class TextField extends JTextField {
+
+    public TextField(){
+
+    }
 }

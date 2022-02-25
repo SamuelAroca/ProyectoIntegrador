@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class MenuBar {
+import javax.swing.*;
+
+public class MenuBar extends JMenuBar {
+
+    public MenuBar() {
+    }
 }

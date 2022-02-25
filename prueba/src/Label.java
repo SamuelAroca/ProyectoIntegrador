@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Label {
+import javax.swing.*;
+
+public class Label extends JLabel {
+
+    public Label(){
+
+    }
 }
