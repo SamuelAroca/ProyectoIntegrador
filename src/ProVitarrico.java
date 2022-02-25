@@ -7,7 +7,7 @@ public class ProVitarrico {
 
         //VentanaChat VChat = new VentanaChat();
 
-        //git config --global user.email "jims.diazc@unac.edu.co"
-        //git config --global user.name "Jim Díaz"
+        //agit config --global user.email "jims.diazc@unac.edu.co"
+        //git config --global user.name "JimDiaz76"
     }
 }
