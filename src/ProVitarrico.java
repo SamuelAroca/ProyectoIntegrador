@@ -6,7 +6,7 @@ public class ProVitarrico {
         //ventana1.setVisible(true); // La ventanase se vuelve visible.
 
         //VentanaChat VChat = new VentanaChat();
-        System.out.println("A");
+        System.out.println("C");
 
         //agit config --global user.email "jims.diazc@unac.edu.co"
         //git config --global user.name "JimDiaz76"
