@@ -1,6 +1,13 @@
 public class ProVitarrico {
     public static void main(String[] args) {
-        System.out.println("A");
-    }//git config --global user.email "you@example.com"
-    //git config --global user.name "Your Name"
+        //System.out.println("A");
+        //PraticaJframe ventana1 = new PraticaJframe(); //Creamos una ventana.
+
+        //ventana1.setVisible(true); // La ventanase se vuelve visible.
+
+        //VentanaChat VChat = new VentanaChat();
+
+        //git config --global user.email "jims.diazc@unac.edu.co"
+        //git config --global user.name "Jim Díaz"
+    }
 }
