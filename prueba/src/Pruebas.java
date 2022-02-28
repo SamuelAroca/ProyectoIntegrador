@@ -24,6 +24,7 @@ public class Pruebas {
         JTextField tf = new JTextField("Hola",3);
         JButton send = new JButton("Enviar");
         JButton reset = new JButton("Restablecer");
+        
 
 
 
