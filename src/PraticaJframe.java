@@ -45,6 +45,7 @@ public class PraticaJframe extends JFrame{
         etiqueta.setBounds(50, 50, 80, 45);
         etiqueta.setForeground(Color.WHITE); //Color de letra.
         etiqueta.setBackground(Color.BLACK);
+        //Holas Jim
 
 
         panel.add(etiqueta);
