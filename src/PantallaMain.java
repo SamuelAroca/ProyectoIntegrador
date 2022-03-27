@@ -1,34 +1,21 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.awt.event.*;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
+import java.net.*;
 
-public class PantallaMain {
+public class PantallaMain extends JFrame{
     protected JPanel panelMain;
-    private JButton buttonRegistro;
-    private JButton buttonLogin;
-    private JLabel labelLogo;
-    private JLabel labelWhapp;
-    private JLabel labelVideo;
-    private JLabel labelTectoVideo;
-
+    protected JButton buttonRegistro;
+    protected JButton buttonLogin;
+    protected JLabel labelLogo;
+    protected JLabel labelWhapp;
+    protected JLabel labelVideo;
 
     public PantallaMain() {
+        setContentPane(panelMain);
 
 
-
-
-        buttonRegistro.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        });
         labelWhapp.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -39,6 +26,19 @@ public class PantallaMain {
             @Override
             public void mouseClicked(MouseEvent e) {
                 enlacePubli("https://youtu.be/WWbjMbjcvt0");
+            }
+        });
+
+        buttonLogin.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+                JFrame frameLog = new InicioSeccion();
+                frameLog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frameLog.setSize(650,500);
+                frameLog.setLocationRelativeTo(null);
+                frameLog.setVisible(true);
+
             }
         });
     }
@@ -62,9 +62,4 @@ public class PantallaMain {
             e.getMessage();
         }
     }
-
-
-
-
-
 }
